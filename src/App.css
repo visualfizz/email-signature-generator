@@ -1,0 +1,27 @@
+#signin-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+#signature {
+  width: 100%;
+  height: 200px;
+}
+
+.go {
+  animation-duration: 1s;
+  animation-name: go;
+  animation-delay: 2s;
+}
+
+@keyframes go {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 0%;
+  }
+}
